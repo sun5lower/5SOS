@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower: 100,200,300,400,500,600,700,800');
+
+/*----------------------------------------------------------Colors */
+
+h1 {
+   color: #F4E50B;
+}
+h3 {
+   color: #F4570B;
+   float: left;
+}
+
+body {
+   background-color: #ffc107;
+}
+
+/*----------------------------------------------------------Header */
+
+
+
+.navbar-brand {
+   padding-top:  0;
+   margin-top: 0;
+   max-width: 70px;
+background-size: cover;
+  background-position: center; 
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #ffc107;
+    font-weight: bold;
+    font-family: Indie flower;
+    font-size: medium;
+}
+/* ---------------------------------------------------Navbar styles */
+
+
+   
+
+
+
+
+
