@@ -1,10 +1,23 @@
-@import url('https://fonts.googleapis.com/css?family=Indie+Flower: 100,200,300,400,500,600,700,800');
+  @import url('https://fonts.googleapis.com/css?family=Permanent+Marker: 100,200,300,400,500,600,700,800');
 
 /*----------------------------------------------------------Colors */
 
-h1 {
-   color: #F4E50B;
+
+
+.uppercase {
+    color: #8B1616;
 }
+
+.h1.display-2 {
+    padding: 0;
+    color: #F6EF12;
+}
+
+h1,h2,h3,h4 {
+    margin: 0;
+    text-align: center;
+}
+
 h3 {
    color: #F4570B;
    float: left;
@@ -12,32 +25,235 @@ h3 {
 
 body {
    background-color: #ffc107;
+   font-family: Permanent Marker;
+   
+}
+.display-4 {
+    color: #000000;
+    text-transform: uppercase;
+    font-family: Permanent Marker;
+    text-align: center;
 }
 
-/*----------------------------------------------------------Header */
+
+.bg-dark {
+    background-color: #ffc107!important;
+}
+
+.container-fluid {
+    padding :0;
+    margin: 0;
+}
+
+div.container-fluid.card {
+    padding: 0;
+    margin: 0;
+}
+
+
+/*----------------------------------------------------------Navbar  */
+
+img.navbar-brand {
+    padding: 0;
+}
+
+.a {
+    font-size: 45px;
+    color: #F4570B;
+    text-decoration: none;
+}
 
 
 
 .navbar-brand {
-   padding-top:  0;
-   margin-top: 0;
-   max-width: 70px;
-background-size: cover;
+   padding:  20;
+   margin: 0;
+   max-width: 30%;
+   background-size: auto;
   background-position: center; 
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: #ffc107;
-    font-weight: bold;
-    font-family: Indie flower;
-    font-size: medium;
+    color: #301188;
+    font-family: Permanent Marker;
+    font-size:25px;
 }
-/* ---------------------------------------------------Navbar styles */
+
+.nav-item {
+    height: 75px;
+    text-align: center;
+    padding: 0;
+}
+
+a.nav-link {
+    font-weight: 500;
+    color: #F6EF12;
+    padding: 20px;
+}
+
+
+/* ---------------------------------------------------Hover.css */
+
+
+
+
+
+/* ---------------------------------------------------Carousel */
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+#myCarousel {
+    margin:0;
+    padding: 0;
+}
+.carousel-item {
+    position: relative;
+    margin-right: -100%;
+    width: 100%;
+}
+   
+  /* ---------------------------------------------------Boys page */
+
+img.card-img-top {
+    background-color: #ffc107;
+    size: auto;
+    margin-top: 0;
+    
+}
+
+.card {
+    background-color: #ffc107;
+    border-color: transparent;
+    text-transform: capitalize;
+    font-size: 28px;
+    color: #1B1E76;
+    
+}
+
+h4.card.title {
+    font: bold;
+    }
+    
+p.card-text {
+    font-size: 20px;
+}
 
 
    
+/* ---------------------------------------------------Jumbotron */
+
+.row.jumbotron {
+    text-transform: capitalize;
+    font-size: 25px;
+    color: #1B1E76;
+    background-color: #ffc107;
+    font-family: Permanent Marker;
+    text-align: center;
+    margin-left: 40px;
+    position: relative;
+}
+
+
+/* ---------------------------------------------------Footer */
 
 
 
 
+ .social-links li a i {
+    width: 70px;
+    height: 70px;
+    padding: 30px 0;
+    border-radius: 100%;
+    font-size: 34px;
+    line-height: 4px;
+    text-align: center;
+    color: #1B1E76;
+    background: #F8E912;
+    transition:  0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
 
+.social-links li a i:hover {
+    background: #C0C0C0;
+
+}
+.social {
+    padding-bottom: 40px;
+    padding-top: 45px;
+}
+ 
+/* ---------------------------------------------------Video */
+
+
+
+
+.videoFrame {
+  width:100%;
+}
+
+.videoFrame iframe{
+   margin: 0 auto;
+   display: block;
+   width: 560px;
+}
+/* ---------------------------------------------------Audio */
+
+.audio-file {
+    text-align: center;
+    margin: auto;
+    color: #1B1E76;
+}
+
+.audio {
+   filter: sepia(20%) saturate(70%) grayscale(1) contrast(99%) invert(12%);
+   
+}
+
+
+
+
+.container {
+  border-radius: 5px;
+  background-color:  #ffc107;
+  padding: 0;
+}
+ 
+
+/* ---------------------------------------------------Form/Contact */
+body
+* {box-sizing: border-box;}
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color:  #ffc107;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit] {
+  background-color: #FFA500;;
+    color: #FFA50;
+    border-radius: 10px;
+}
+
+input: hover {
+    background-color: #00ff00;
+}
