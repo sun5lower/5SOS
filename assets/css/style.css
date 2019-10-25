@@ -11,29 +11,19 @@
       color: #F6EF12;
   }
 
-  h1,
-  h2,
-  h3,
-  h4 {
-      margin-bottom: 50px;
-      margin-top: 50px;
-      text-align: center;
-  }
 
   p {
       text-align: center;
+      color: ##F5EB00;
+      
   }
 
-  h3 {
-      color: #F4570B;
-      float: left;
-  }
+  
 
   body {
       background-color: #ffc107;
       font-family: Permanent Marker;
-
-  }
+      }
 
   .display-4 {
       color: #000000;
@@ -69,14 +59,7 @@
       margin: 0;
   }
 
-  .a {
-      font-size: 45px;
-      color: #F4570B;
-      text-decoration: none;
-      margin-left: 20px;
-      display: inline-block;
-      padding-top: 40px;
-  }
+ 
 
 
   .navbar-nav.navbar-center {
@@ -116,36 +99,8 @@
       font-size: 25px;
   }
 
-  .navbar-items {
-      padding: 0;
-      margin: 0;
-  }
-
-
-  .nav-item {
-      height: 75px;
-      text-align: center;
-      padding: 0;
-      margin: 0;
-  }
-
-  a.nav-link {
-      font-weight: 500;
-      color: #F6EF12;
-      padding: 0;
-      display: block;
-  }
-
-  #navbarNavDropdown {
-      padding: -50px;
-      margin: 0;
-  }
-
-
-  #nav li {
-      font-size: 14px;
-      padding: 25px;
-  }
+  
+ 
 
   /* ---------------------------------------------------Carousel */
 
@@ -164,10 +119,21 @@
       margin-right: -100%;
       width: 100%;
   }
+  
+  .carousel-caption {
+     text-alighn: center;
+     color: #FFc107;
+     font-weight: 700;
+     padding-bottom: 100px;
+     margin-bottom: 30px;
+     
+  }
+  
+  
 
   /* ---------------------------------------------------Boys page */
 
-  img.card-img-top {
+  .card-img-top {
       background-color: #ffc107;
       size: auto;
       margin-top: 0;
@@ -191,7 +157,9 @@
       font-size: 20px;
   }
 
-
+.card-body {
+    text-align: center;
+}
 
   /* ---------------------------------------------------Jumbotron */
 
@@ -225,6 +193,9 @@
   }
 
   /* ---------------------------------------------------Audio */
+.container-fluid .audio {
+    display: inline-block;
+}
 
   .audio-file {
       text-align: center;
@@ -242,13 +213,7 @@
 
   }
 
-  .audio-file-teeth {
-      margin-left: 39%;
-  }
-
-  .title-teeth {
-      margin-right: 50%;
-  }
+ 
 
   .container {
       border-radius: 5px;
@@ -287,29 +252,29 @@
       resize: vertical;
   }
 
-  input[type=submit] {
-      background-color: #ffc107;
-      color: white;
-      padding: 12px 20px;
-      border: none;
-      border-radius: 4px;
-      cursor: pointer;
-  }
+  
+  
+ /* This is a styling for the "send" button   */
+ 
 
+  
   input[type=submit] {
-      background-color: #FFA500;
-      color: #FFA50;
-      border-radius: 10px;
-  }
+  background-color:  #FBE70C;
+  color: #1B1E76;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
 
-  input: hover {
-      background-color: #00ff00;
-  }
+input[type=submit]:hover {
+  background-color: #C0C0C0;
+}
 
   /* ---------------------------------------------------Store  */
 
   .btn {
-      color: #F4570B;
+      color: #9B59B6;
       background-color: #a9cc29;
       border: hidden;
 
@@ -317,7 +282,7 @@
   }
 
   .btn:hover {
-      background-color: #1C1C73;
+      background-color:#C0C0C0;
 
   }
 
@@ -337,7 +302,7 @@
   }
 
   .shopping i:hover {
-      color: #edf2f2;
+      color: #C0C0C0;
   }
 
   body {
