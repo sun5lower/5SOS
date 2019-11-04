@@ -141,7 +141,18 @@ To be added just before Im ready to submit the project
 ### Media
 
 The photos used in this site were obtained from:
+<<<<<<< HEAD
 * [modestmanagement.com]
 * [fr.fanpop.com]
 * [Pressfrom.com] by Chris Pizzello 
 * [5SOS.com] official website - poster for store page and band logo.
+=======
+* modestmanagement.com
+* fr.fanpop.com
+* Pressfrom.com by Chris Pizzello 
+* 5SOS official website - poster for store page and band logo.
+
+Acknowledgements
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+ I 
+>>>>>>> 739891a1e6ff80eef0d5370aefded6a1d9109a85
