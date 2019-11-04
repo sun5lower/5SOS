@@ -30,8 +30,8 @@ To establish the basic structure of a page before visual design and content is a
 
 Here are the links: 
 
-1 to mobile view  https://wireframe.cc/pro/pp/e44ecfde7280627
-2  desktop view https://wireframe.cc/pro/pp/29d6b4c9e265965
+* Desctop view  https://wireframe.cc/pro/pp/e44ecfde7280627
+* Mobile view https://wireframe.cc/pro/pp/29d6b4c9e265965
 
 # Features
 ***************************************************************************************************************************************
@@ -127,10 +127,7 @@ After some code has been created I typed * git add . * and *git commit -m ""* to
 When it felt like my project has progressed substantially I created new repository in *GitHub* and by using these:
 *git remote add origin remote repository URL*
 *git push -u origin master* I linked it to local repository.
- GitHub pages hosts project pages from a GitHub repository,so once the local repository is pushed to GitHub,
- link of the website can be found under *Settings* of the project's repo.
- 
-  [Here is the finished website from GitHub][]
+  Once the local repository is pushed to GitHub, link of the website can be found in  *Settings* of the project's repo
 
 
 [https://sun5lower.github.io/Milestone-1-5SOS/][5SOS website]
