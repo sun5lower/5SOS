@@ -163,6 +163,8 @@
 }
 
   /* ---------------------------------------------------Jumbotron */
+  /* I've added some custom styling to this jumbotron, although I used it to attract extra attention,I felt it needet to be sabtle  */
+  
 
   .row.jumbotron {
       text-transform: capitalize;
@@ -183,6 +185,8 @@
 
   /* ---------------------------------------------------Video */
 
+/* I've copied this code from w3schools.com  */
+
   .videoFrame {
       width: 100%;
   }
@@ -194,6 +198,8 @@
   }
 
   /* ---------------------------------------------------Audio */
+  
+
   
 .container-fluid .audio {
     display: inline-block;
@@ -207,6 +213,7 @@
       width: 100%;
 
   }
+/* I've taken this code from stackoverflow.com */
 
   .audio {
       filter: sepia(20%) saturate(70%) grayscale(1) contrast(99%) invert(12%);
@@ -216,7 +223,6 @@
   }
 
  
-
   .container {
       border-radius: 5px;
       background-color: #ffc107;
@@ -292,6 +298,10 @@ input[type=submit]:hover {
       color: #090b7a;
   }
 
+/* Code here is copied from Code Institute material, when I was thought how to style social links,
+since then I've noticed it is quite populas way of presenting social links on websites */
+
+
   .shopping i {
       font-size: 26px;
       color: #090b7a;
@@ -307,7 +317,8 @@ input[type=submit]:hover {
       color: #C0C0C0;
   }
 
- 
+ /* Hero image from Bootstrap code was fun way of adding some simple yet funtional code. I've copied the code from w3schools.com */
+
 
   .hero-image {
       background: url("../images/merch.jpeg");
@@ -329,6 +340,10 @@ input[type=submit]:hover {
   }
 
   /* ---------------------------------------------------Footer */
+
+/* Code here is copied from Code Institute material, when I was thought how to style social links,
+since then I've noticed it is quite populas way of presenting social links on websites */
+
 
   .social-links li a i {
       width: 70px;
