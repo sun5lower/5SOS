@@ -6,7 +6,7 @@ Weclome to my first project!
 I am required to build a static front-end website to showcase what I've learned so far.
 I am using HTML and CSS to build this website and Bootstrap 4 which is the most popular HTML, CSS, and JavaScript framework for developing responsive, mobile-first websites.
  For this project I've chosen to make an alternative website or fansite for Australian pop/rock band 5 Seconds Of Summer. My aim is to keep layout simple, navigation easy to fallow, use clear calls to action, and use catching colours. 
-Bands current website doesn’t do them a justice, landing page isn’t aesthetically pleasing and doesn’t encourage look further, unless you are already an established fan.
+Bands current website doesn’t do them a justice, landing page isn’t aesthetically pleasing and doesn’t encourage to look further, unless you are already an established fan.
 
 
 # UX
