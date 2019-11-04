@@ -14,9 +14,8 @@
 
   p {
       text-align: center;
-      color: ##F5EB00;
-      
-  }
+     
+       }
 
   
 
@@ -85,7 +84,8 @@
       opacity: 0.4;
       filter: alpha(opacity=50);
   }
-
+ /* I've added  hover effect to name of the band on the navbar */
+ 
   .band-name:hover {
       opacity: 1.0;
       filter: alpha(opacity=100);
@@ -113,6 +113,7 @@
       margin: 0;
       padding: 0;
   }
+/*Carousel*/
 
   .carousel-item {
       position: relative;
@@ -193,6 +194,7 @@
   }
 
   /* ---------------------------------------------------Audio */
+  
 .container-fluid .audio {
     display: inline-block;
 }
@@ -234,7 +236,9 @@
       width: 100%;
   }
 
-
+.song-list {
+  text-align: center;
+}
 
 
   /* ---------------------------------------------------Form/Contact */
@@ -252,9 +256,7 @@
       resize: vertical;
   }
 
-  
-  
- /* This is a styling for the "send" button   */
+ /* This is a styling for the "send" button, similar to social link,to keep the consistent look  */
  
 
   
@@ -305,10 +307,7 @@ input[type=submit]:hover {
       color: #C0C0C0;
   }
 
-  body {
-      margin: 0;
-
-  }
+ 
 
   .hero-image {
       background: url("../images/merch.jpeg");
