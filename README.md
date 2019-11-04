@@ -127,18 +127,11 @@ After some code has been created I typed * git add . * and *git commit -m ""* to
 When it felt like my project has progressed substantially I created new repository in *GitHub* and by using these:
 *git remote add origin remote repository URL*
 *git push -u origin master* I linked it to local repository.
-  Once the local repository is pushed to GitHub, link of the website can be found under *Settings* of the project's repo.
-  GitHub pages hostsproject pages from a GitHub repository
-  [Here is the GitHub ]
+ GitHub pages hosts project pages from a GitHub repository,so once the local repository is pushed to GitHub,
+ link of the website can be found under *Settings* of the project's repo.
+ 
+  [Here is the finished website from GitHub][]
 
-
-
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-
-Different values for environment variables (Heroku Config Vars)?
-Different configuration files?
-Separate git branch?
-In addition, if it is not obvious, you should also describe how to run your code locally.
 
 [https://sun5lower.github.io/Milestone-1-5SOS/][5SOS website]
 
