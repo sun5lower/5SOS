@@ -133,8 +133,8 @@ When it felt like my project has progressed substantially I created new reposito
 *git push -u origin master* I linked it to local repository.
   Once the local repository is pushed to GitHub, link of the website can be found in  *Settings* of the project's repo
 
-[https://sun5lower.github.io/Milestone-1-5SOS/][Link to my Website]
-[https://github.com/sun5lower/Milestone-1-5SOS][Link to GitGub]
+https://sun5lower.github.io/Milestone-1-5SOS/
+https://github.com/sun5lower/Milestone-1-5SOS
 
 
 
