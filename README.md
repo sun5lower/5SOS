@@ -79,7 +79,7 @@ Although, there are 5SOS social links featured of the bottom of every page, to m
 
 
 # Testing
-************************************************************************************************************************************************************************
+***************************************************************************************************************************************
 I've opened my website link(from HitHub pages) on other laptop to check the look and responsivness and it looked better then on  my own laptop. I've worked with Google Chrome as my default browser.
 And I appreaciate the *DevTools* it provided. One of the best features for me is the option of viewing the appearence of the website on diffrent screensizes,
 which saves the time to copy the link and open it on different gadgets-mobile, tablet, or desktop every time I make some changes.
@@ -133,16 +133,11 @@ When it felt like my project has progressed substantially I created new reposito
 *git push -u origin master* I linked it to local repository.
   Once the local repository is pushed to GitHub, link of the website can be found in  *Settings* of the project's repo
 
-<<<<<<< HEAD
-* https://sun5lower.github.io/Milestone-1-5SOS/
-* https://github.com/sun5lower/Milestone-1-5SOS
-=======
-https://sun5lower.github.io/Milestone-1-5SOS/
-https://github.com/sun5lower/Milestone-1-5SOS
 
 
->>>>>>> 0f5bcb3e35dbacca2436b896a8de19bdd3d1fefc
 
+
+#Credits
 ***************************************************************************************************************************************
 To be added just before Im ready to submit the project
 
@@ -150,11 +145,11 @@ To be added just before Im ready to submit the project
 
 The photos used in this site were obtained from:
 
-* [modestmanagement.com]
-* [fr.fanpop.com]
-* [Pressfrom.com] by Chris Pizzello 
-* [5SOS.com] official website - poster for store page and band logo.
-* [5sos.fandom.com] Michael profile picture
-* [me.me] Ashton's profile picyure
+* modestmanagement.com
+* fr.fanpop.com
+* Pressfrom.com by Chris Pizzello 
+* 5SOS.com official website - poster for store page and band logo.
+* 5sos.fandom.com Michael profile picture
+* me.me Ashton's profile picyure
 
 
