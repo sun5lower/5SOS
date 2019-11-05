@@ -30,19 +30,20 @@ To establish the basic structure of a page before visual design and content is a
 
 Here are the links: 
 
-* Desctop view  https://wireframe.cc/pro/pp/e44ecfde7280627
-* Mobile view https://wireframe.cc/pro/pp/29d6b4c9e265965
+* Mobile view  https://wireframe.cc/pro/pp/e44ecfde7280627
+* Desktop view https://wireframe.cc/pro/pp/29d6b4c9e265965
 
 # Features
+
 ***************************************************************************************************************************************
 
 I felt like my new website needed 6 pages to be transparent and easy to use. All of the pages have the same navigation header and bands social links in the footer.
-1. Home page- features short introduction to the band and carousel of bands photos.
-2.Boys page- again short info about each member of the band and their photo. I've used Bootstrap cards for this purpose.
-3.Music page- has a few audio files.
-4.Video page-has a few music videos.
-5.Store page-I used original 5SOS store background and linked it up with the "real"
-6.Contact page- I've used Bootstrap Form to create a form that anyone can fill in and send it to band.
+* Home page- features short introduction to the band and carousel of bands photos.
+* Boys page- again short info about each member of the band and their photo. I've used Bootstrap cards for this purpose.
+* Music page- has a few audio files.
+* Video page-has a few music videos.
+* Store page-I used original 5SOS store background and linked it up with the "real"
+* Contact page- I've used Bootstrap Form to create a form that anyone can fill in and send it to band.
 Although it's possible to fill the form in, it wouldn't send any information entered to the band, because it's not wired up,it's not functional.
 
 # Future features
@@ -71,7 +72,7 @@ Although, there are 5SOS social links featured of the bottom of every page, to m
 * [GoogleFonts](https://fonts.google.com/) I imported the font style (Permanent Marker) from this extensive font catalog.
 * [W3Newbie](https://w3newbie.com/courses/) Help to understand how to implement certain components, with online tutorial.
 * [Stack Overflow](https://stackoverflow.com/) Using forums to find out how to make all the photos the same size.
-* [Slack]()Reading chats on requiroments and mistakes,asking for advise.
+* [Slack](https://slack.com/intl/en-gb/) Reading chats on requiroments and mistakes,asking for advise.
 * [htmlcolorcodes](https://htmlcolorcodes.com/color-picker/) I used this website to find right colors for my project-background color, font color etc. 
 
 
@@ -83,6 +84,8 @@ I've opened my website link(from HitHub pages) on other laptop to check the look
 And I appreaciate the *DevTools* it provided. One of the best features for me is the option of viewing the appearence of the website on diffrent screensizes,
 which saves the time to copy the link and open it on different gadgets-mobile, tablet, or desktop every time I make some changes.
 I opened the link in Chrome and Edge browsers and it worked fine and looked as intended in Chrome, but carousel photos didn't line up nicely in Edge.
+Audio files are not playing in Opera browser, and what I gathered from Opera forum that Opera only play (HTML5) .ogg files, not mp3. 
+I could convert .mp3 files to .ogg files, but at this stage I wouldn't know how to make this work, when different browsers use different types of audio.
 To fix this problem I resized the photos,but I am aware that there is another way how to fix the poor alignment with stylesheet.
 
 Mainly I used Git locally for every day checks and tweaks.
@@ -115,6 +118,7 @@ So the form is there and can be filled in, but it's not functional.This is somet
  
  Some of the Font Awesome icons wouldn't display at all, so I refained from using them. 
 
+Audio files doesn't work at all in Opera browser, I'm guesssing the audio player is not compatible with the browser.
 
 # Deployment
 ************************************************************************************************************************************
@@ -141,18 +145,9 @@ To be added just before Im ready to submit the project
 ### Media
 
 The photos used in this site were obtained from:
-<<<<<<< HEAD
+
 * [modestmanagement.com]
 * [fr.fanpop.com]
 * [Pressfrom.com] by Chris Pizzello 
 * [5SOS.com] official website - poster for store page and band logo.
-=======
-* modestmanagement.com
-* fr.fanpop.com
-* Pressfrom.com by Chris Pizzello 
-* 5SOS official website - poster for store page and band logo.
 
-Acknowledgements
---------------------------------------------------------------------------------------------------------------------------------------------------------------
- I 
->>>>>>> 739891a1e6ff80eef0d5370aefded6a1d9109a85
