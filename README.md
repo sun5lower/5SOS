@@ -135,9 +135,7 @@ When it felt like my project has progressed substantially I created new reposito
 
 https://sun5lower.github.io/Milestone-1-5SOS/
 
-https://sun5lower.github.io/Milestone-1-5SOS/contact.html
 
-https://e6ab8778d1df421594c67e2275d17f8b.vfs.cloud9.us-east-1.amazonaws.com/_static/video.html
 
 ***************************************************************************************************************************************
 To be added just before Im ready to submit the project
