@@ -87,7 +87,7 @@ I opened the link in Chrome and Edge browsers and it worked fine and looked as i
 Audio files are not playing in Opera browser, and what I gathered from Opera forum that Opera only play (HTML5) .ogg files, not mp3. 
 I could convert .mp3 files to .ogg files, but at this stage I wouldn't know how to make this work, when different browsers use different types of audio.
 To fix this problem I resized the photos,but I am aware that there is another way how to fix the poor alignment with stylesheet.
-
+I also tested the look and functionality in Firefox browser and everything appears to work there.
 Mainly I used Git locally for every day checks and tweaks.
 
 When I sent GitHup pages link via e-mail to my son and he opened it on his tablet, we realized that some of my social media links werent opening properly on some of the pages.
@@ -133,10 +133,8 @@ When it felt like my project has progressed substantially I created new reposito
 *git push -u origin master* I linked it to local repository.
   Once the local repository is pushed to GitHub, link of the website can be found in  *Settings* of the project's repo
 
-
-[https://sun5lower.github.io/Milestone-1-5SOS/][5SOS website]
-
-[https://e6ab8778d1df421594c67e2275d17f8b.vfs.cloud9.us-east-1.amazonaws.com/_static/boys.html][AWS link to website]
+* https://sun5lower.github.io/Milestone-1-5SOS/
+* https://github.com/sun5lower/Milestone-1-5SOS
 
 # Credits
 *************************************************************************************************************************************************************
@@ -150,4 +148,7 @@ The photos used in this site were obtained from:
 * [fr.fanpop.com]
 * [Pressfrom.com] by Chris Pizzello 
 * [5SOS.com] official website - poster for store page and band logo.
+* [5sos.fandom.com] Michael profile picture
+* [me.me] Ashton's profile picyure
+
 

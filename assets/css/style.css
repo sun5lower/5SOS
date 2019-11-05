@@ -149,15 +149,16 @@ a {
   /* I've added some custom styling to this jumbotron, although I used it to attract extra attention,I felt it needet to be sabtle  */
   
 
-  .row.jumbotron {
+  .jumbotron  {
       text-transform: capitalize;
       font-size: 25px;
       color: #212529;
       background-color: #ffc107;
       font-family: Permanent Marker;
       text-align: center;
-      margin-left: 40px;
+      margin: 0;
       position: relative;
+      width: 100%;
   }
 
   .jumbotron {
