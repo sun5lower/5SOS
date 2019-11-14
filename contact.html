@@ -57,6 +57,7 @@
             
         </div>
     </header>
+<!--Contact Us Section--!>
 
     <h2 style=" text-align: center;"> Feel free to contact us</h2>
 
@@ -65,15 +66,15 @@
 <!--I copied this form and personalized from w3schools.com-->
 
     <div class="container">
-        <form action="/action_page.php">
+        <form>
             <label for="fname">First Name</label>
-            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            <input type="text" id="fname" name="firstname" required placeholder="Your name..">
 
             <label for="lname">Last Name</label>
-            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            <input type="text" id="lname" name="lastname" required placeholder="Your last name..">
 
             <label for="country">Country</label>
-            <select id="country" name="country">
+            <select id="country" name="country" required>
                 
       <!--I've added the country list from 5SOS official website to be accurate-->
       
@@ -330,7 +331,7 @@
       </select>
 
             <label for="subject">Subject</label>
-            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+            <textarea id="subject" name="subject" required placeholder="Write something.." style="height:200px"></textarea>
 
             <input type="submit" value="Send">
 
