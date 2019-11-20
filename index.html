@@ -14,106 +14,101 @@
     They are: carousel,button, jumbotron, navbar, list, card, dropdown etc -->
 </head>
 
-<body>
+<body id="mainPage" data-spy="scroll" data-target=".navbar data-offset=30">
     <!-- I've added class of cointainer-fluid to most of the elements and in every page,
     to insure that container that elements are in- stays full width and takes up the entire viewport-->
 
-    <header class="container-fluid">
+
+    <!--Here I've added Bootstrap horizontal Navbar,which is a list of links-->
+
+    <!--Navigation-->
+
+    <section class="container-fluid">
         <div class="row no-gutters">
-            <div class="col-sm-12 col-md-6">
-                <a href=index.html><img src="assets/images/brand5.png" alt="band's black logo with white letters" class="navbar-brand"></a>
-                <span class="band-name">5 Seconds Of Summer</span>
-            </div>
-            <!--Here I've added Bootstrap horizontal Navbar,which is a list of links-->
-
-            <!--Navigation-->
-
-            <div class="row">
-                <div class="col-xsm-12 col-sm-6 col-md-6 navbar navbar-light bg-dark navbar-expand-md">
-
-                    <button class='navbar-toggler ml-auto' type="button" data-toggle="collapse" data-target='#navbarNavDropdown' aria-controls="navbarNavDropdown" aria-expanded="false">
-                    <span class='navbar-toggler-icon'></span>
+            <nav class="col-12 navbar navbar-dark bg-dark navbar-expand-lg fixed-top px-0">
+                <a href="#mainPage"><img src="assets/images/brand5.png" alt="band's black logo with white letters" class="navbar-brand "></a>
+                <button class='navbar-toggler ml-auto' type="button" data-toggle="collapse" data-target='#navbarNavDropdown' aria-controls="navbarNavDropdown" aria-expanded="false">
+                    <span class='navbar-toggler-icon'>
+                        </span>
                     </button>
-                    <div class="collapse navbar-collapse" id='navbarNavDropdown'>
-                        <ul class=" navbar-nav">
-                            <li class="nav-item active mr-2">
-                                <a href="index.html" class="nav-link hvr-buzz">HOME</a>
-                            </li>
-                            <li class="nav-item mr-2">
-                                <a class="nav-link hvr-buzz" href="boys.html">BOYS</a>
-                            </li>
-                            <li class="nav-item mr-2">
-                                <a class="nav-link hvr-buzz" href="music.html">MUSIC</a>
-                            </li>
-                            <li class="nav-item mr-2">
-                                <a class="nav-link hvr-buzz" href="video.html">VIDEO</a>
-                            </li>
-                            <li class="nav-item mr-2">
-                                <a class="nav-link hvr-buzz" href="store.html">STORE</a>
-                            </li>
-                            <li class="nav-item mr-2">
-                                <a class="nav-link hvr-buzz" href="contact.html">CONTACT</a>
-                            </li>
-                        </ul>
-                    </div>
-                    </nav>
-                </div>
-            </div>
-
-    </header>
-    <!-- I've added BS Carousel component for more elegant look, which also gives more depth to landing page  -->
-
-    <!--Image carousel-->
-    <div class="container-fluid">
-        <div class="row">
-            <div class=" col-12">
-
-                <div id="photoCarousel" class="carousel slide" data-ride="carousel">
-
-                    <!-- Indicators -->
-                    <ul class="carousel-indicators">
-                        <li data-target="#photoCarousel" data-slide-to="0" class="active"></li>
-                        <li data-target="#photoCarousel" data-slide-to="1"></li>
-                        <li data-target="#photoCarousel" data-slide-to="2"></li>
-                        <li data-target="#photoCarousel" data-slide-to="3"></li>
+                <div class="collapse navbar-collapse" id='navbarNavDropdown'>
+                    <ul class=" navbar-nav">
+                        <li class="nav-item  mr-2">
+                            <a href="#mainPage" class="nav-link active hvr-buzz">HOME</a>
+                        </li>
+                        <li class="nav-item mr-2">
+                            <a href="#boys" class="nav-link hvr-buzz">BOYS</a>
+                        </li>
+                        <li class="nav-item mr-2">
+                            <a href="#music" class="nav-link hvr-buzz">MUSIC</a>
+                        </li>
+                        <li class="nav-item mr-2">
+                            <a href="#video" class="nav-link hvr-buzz">VIDEO</a>
+                        </li>
+                        <li class="nav-item mr-2">
+                            <a href="#store" class="nav-link hvr-buzz">STORE</a>
+                        </li>
+                        <li class="nav-item mr-2">
+                            <a href="#contact" class="nav-link hvr-buzz">CONTACT</a>
+                        </li>
                     </ul>
 
-                    <!-- The slideshow -->
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="assets/images/band1.jpg" alt="Band members standing in the row " width="1100" height="500">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="assets/images/bbcradio1g.jpg" alt="Black and white photo" width="1100" height="500">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="assets/images/shade.jpg" alt="image from their management website" width="1100" height="500">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="assets/images/background.jpg" alt="BBC children in need " width="1100" height="500">
-                        </div>
-                    </div>
+               
+            </nav>
 
-                    <!-- Left and right controls to select next photo-->
+            <div id="home" class="container-fluid">
+                <!-- I've added BS Carousel component for more elegant look, which also gives more depth to landing page  -->
 
-                    <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+                <!--Image carousel-->
+
+                <div class="row">
+                    <div class=" col-12">
+                        <div id="photoCarousel" class="carousel slide" data-ride="carousel">
+
+                            <!-- Indicators -->
+                            <ul class="carousel-indicators">
+                                <li data-target="#photoCarousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#photoCarousel" data-slide-to="1"></li>
+                                <li data-target="#photoCarousel" data-slide-to="2"></li>
+                                <li data-target="#photoCarousel" data-slide-to="3"></li>
+                            </ul>
+
+                            <!-- The slideshow -->
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="assets/images/band1.jpg" alt="Band members standing in the row " width="1100" height="500">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/images/bbcradio1g.jpg" alt="Black and white photo" width="1100" height="500">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/images/shade.jpg" alt="image from their management website" width="1100" height="500">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/images/background.jpg" alt="BBC children in need " width="1100" height="500">
+                                </div>
+                            </div>
+
+                            <!-- Left and right controls to select next photo-->
+
+                            <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
     <span class="carousel-control-prev-icon"></span>
   </a>
-                    <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+                            <a class="carousel-control-next" href="#myCarousel" data-slide="next">
     <span class="carousel-control-next-icon"></span>
   </a>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </div>
 
-    <!--Jumbotron-->
+            <!--Jumbotron-->
 
-    <!--Jumbotron helps attract extra attention to landing page, I got the idea for that from w3nevbie.com-->
+            <!--Jumbotron helps attract extra attention to landing page, I got the idea for that from w3nevbie.com-->
 
-    <div class="container">
-        <div class="row jumbotron center">
-            <div class=" col-12 band-hello></div>
+            <div class="container">
+                <div class="row jumbotron center">
+                    <div class=" col-12 band-hello></div>
                 <p class" lead uppercase "></p>Hi, we are 5 Seconds Of Summer!
                 We are an Australian pop rock band from Sydney, New South Wales, formed in 2011.
                 We started out on YouTube, covering other artist songs,
@@ -123,19 +118,22 @@
             </div>
         </div>
      </div>  
+            </div>
+        </div>
+        </section>
+        
+    <!--Band members section-->
+    
+     <div id="boys" class="container-fluid "> 
      
-     
-      <!--Band members section-->
-
-    <div class="container-fluid bandMembers ">
         <div class="row ">
             <div class="col-12 ">
                 <h2 class="welcomeheading ">Welcome </h2>
 
             </div>
-            <hr>
-        </div>
-    </div>
+        
+         </div>
+  
     <div class="container-fluid card ">
         <div class="row padding ">
             <div class="col-md-3 sm-2 ">
@@ -144,7 +142,7 @@
                     <div class="card-body ">
                         <h4 class="card title ">Luke Hemmings</h4>
 
-                        <br>
+                    
                         <p>16 July 1996</p>
                         <p class="card-text ">Lead vocals, rhythm guitar</p>
                     </div>
@@ -155,7 +153,7 @@
                     <img class="card-img-top " width="300 " height="300 " src="assets/images/ashton4.jpg ">
                     <div class="card-body ">
                         <h4 class="card title ">Ashton Irwin</h4>
-                        <br>
+                
                         <p>7 July 1994</p>
                         <p class="card-text ">Drums, vocals, percussion</p>
                     </div>
@@ -186,13 +184,17 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
+     </div>
+</div>
+</div>
+    
+     
     <!--End of band members section-->
     
     <!--Music section-->
     
-    <h1 class="song-list ">Our songs</h1>
+   <div id="music" class="container-fluid ">  
+    <h2 class="song-list ">Our songs</h2> 
 
     <!--I've taken inspiration from www.w3schools.com to create an  audio file.
      And audio file itself comes from my computers library,which I've downloaded from YouTube and converted to mp3 format -->
@@ -235,22 +237,22 @@
                 </div>
                 </div>
     </section>
+    </div>
      <!--End of music section-->
 
      
      
-     <!-- Video section--!>
-    <h1 style=" text-align: center; ">Our Videos</h1>
-    <section class="videoSection ">
-        <div class="videoPage container-fluid ">
-
-            <!--I copied the embeded video cembed-resode from YouTube and pasted it here in videoFrame div-->
+     <!-- Video section-->
+     
+  <section id="video" class="container-fluid"> 
+    <h2 class="song-list">Our videos</h2> 
+     <!--I copied the embeded video cembed-resode from YouTube and pasted it here in videoFrame div-->
 
             <div class="row videoframe ">
-                <div class="col-sm-12 ml-lg-auto mr-lg-auto col-lg-10 ">
+                <div class="col-sm-12 ml-lg-auto mr-lg-auto col-lg-8 ">
                 <div videoHeading
                     <div class="videoName ">
-                    <h2 style=" text-align: center; "> Easier</h2>
+                    <h3 style=" text-align: center; "> Easier</h3>
                     </div>
                     <div class="embed-responsive embed-responsive-16by9 ">
                         <iframe class="embed-responsive-item " src="https://www.youtube.com/embed/b1dFSWLJ9wY " allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture " allowfullscreen></iframe>
@@ -258,9 +260,9 @@
                 </div>
             </div>
             <div class="row videoframe ">
-                <div class="col-sm-12 ml-lg-auto mr-lg-auto col-lg-10 ">
+                <div class="col-sm-12 ml-lg-auto mr-lg-auto col-lg-8 ">
                     <div class="videoName ">
-                    <h2 style=" text-align: center; ">Youngblood</h2>
+                    <h3 style=" text-align: center; ">Youngblood</h3>
                     </div>
                     <div class="embed-responsive embed-responsive-16by9 ">
                         <iframe class="embed-responsive-item " src="https://www.youtube.com/embed/Jqs5EaAaueA " allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture " allowfullscreen></iframe>
@@ -269,22 +271,27 @@
             </div>
 
             <div class="row videoframe ">
-                <div class="col-sm-12 ml-lg-auto mr-lg-auto col-lg-10 ">
+                <div class="col-sm-12 ml-lg-auto mr-lg-auto col-lg-8">
                     <div class="videoName ">
-                    <h2 style=" text-align: center; "> Lie To Me</h2>
+                    <h3 style=" text-align: center; "> Lie To Me</h3>
                     </div>
                     <div class="embed-responsive embed-responsive-16by9 ">
                     <iframe class="embed-responsive-item " src="https://www.youtube.com/embed/PKcGR3hexig " allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture " allowfullscreen></iframe>
                  </div>
                 </div>
             </div>
+        
     </section>
 
  <!--End of video section-->
      
-     <!--Store section--!>
+     <!--Store section-->
      
-     <h1 class="storeHeading" style=" text-align: center; ">Store</h1>
+      <section id="store" class="container-fluid"> 
+      <h3 class="storeHeading" style=" text-align: center; ">Store</h3>
+      <div class="row"> 
+      <div class="col-12"
+    
 
 <!--I added the hero image from Bootstrap as a background image, I liked the way it could be styled and it fit the purpose.
 The button and added text areas works great for my STORE page-->
@@ -292,21 +299,23 @@ The button and added text areas works great for my STORE page-->
 <div class="hero-image ">
   <div class="hero-text ">
    <!--I've linked this button to 5SOS official store-->
-   
+    
     <h1>For our merchendise, music and tickets press here</h1>
     <a target="_blank rel="noopener" href="https://5sosstore.eu " class="btn btn-primary btn-large " role="button ">Online store
-  <i class="fa fa-shopping-cart " aria-hidden="true "></i>
-  </a>
-    </div>
-</div>
-     
-  <!--End of Store section--!>   
+                        <i class="fa fa-shopping-cart " aria-hidden="true "></i>
+                        </a>
+                    </div>
+                </div>
+                </div>
+    </section>
+    <!--End of Store section-->   
   
-  <!--Contact Us Section--!>
-
+  <!--Contact Us Section-->
+  
+  <section id="contact" class="container-fluid"> 
+  
     <h2 class="contactHeading" style=" text-align: center;"> Feel free to contact us</h2>
 
-    <br>
 
 <!--I copied this form and personalized from w3schools.com-->
 
@@ -583,14 +592,14 @@ The button and added text areas works great for my STORE page-->
         </form>
     </div>
     </div>
-     
-      <!--End of contact section-->
-     
- <!--Footer-->
- 
- <!--I thought it was cool way of styling and representing social links the same way it was done in "Resume " project-->
- 
-   <div class="container-fluid ">
+    </section>
+    <!--End of contact section-->
+
+    <!--Footer-->
+
+    <!--I thought it was cool way of styling and representing social links the same way it was done in "Resume " project-->
+
+    <div class="container-fluid ">
         <div class="row text-center ">
             <div class="col-xsm-4 col-sm-6 col-md-12 col-lg-12 ">
                 <ul class="list-inline social-links ">
@@ -600,13 +609,13 @@ The button and added text areas works great for my STORE page-->
                             <span class="sr-only ">Instagram</span>
                         </a>
                     </li>
-                     <li class="list-inline-item ">
+                    <li class="list-inline-item ">
                         <a target="_blank " href="https://twitter.com/5SOS ">
                             <i class="fa fa-twitter " aria-hidden="true "></i>
                             <span class="sr-only ">Twitter</span>
                         </a>
                     </li>
-                   <li class="list-inline-item ">
+                    <li class="list-inline-item ">
                         <a target="_blank " href="https://www.youtube.com/channel/UC-vKwDHcbPLtjml81ohGRng ">
                             <i class="fa fa-youtube " aria-hidden="true "></i>
                             <span class="sr-only ">YouTube</span>
@@ -624,9 +633,10 @@ The button and added text areas works great for my STORE page-->
     </div>
     </div>
     <!--These plugins are added from Bootstrap website for components like carousel and dropdown menus to work properly on the bottom of every page-->
-    
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js "></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js "></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js "></script>
-    </body>
+</body>
+
 </html>

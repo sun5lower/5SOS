@@ -1,12 +1,5 @@
   @import url('https://fonts.googleapis.com/css?family=Permanent+Marker: 100,200,300,400,500,600,700,800');
 
-  html {
-    scroll-behavior: smooth;
-  }
-
-
-
-
   /*----------------------------------------------------------Colors */
 
   .h1.display-2 {
@@ -22,10 +15,13 @@
 
 
 
-  body {
+ html,body {
     background-color: #ffc107;
     font-family: Permanent Marker;
+    position: relative;
+   
   }
+
 
 
   .welcomeheading {
@@ -33,10 +29,12 @@
     text-transform: uppercase;
     font-family: Permanent Marker;
     text-align: center;
-    font-size: 40px;
-    margin: 3rem;
+    font-size: 30px;
+    margin-bottom: 2rem;
 
   }
+
+/* I set padding and margin for container-fluid class to 0; to remove overflow */
 
   .container-fluid {
     padding: 0;
@@ -56,36 +54,37 @@
   img.navbar-brand {
     padding: 0;
     margin: 0;
-  }
+  width: 30%;
+  height: 50%;
+ }
 
   .bg-dark {
-    background-color: #ffc107!important;
+    background-color: #5c5a54;
   }
 
+.navbar {
+  opacity: 0.9;
+  position: fixed;
+  padding: 0;
+ 
+}
+.nav {
+  padding: 0;
+  margin: 0;
+}
 
-  .navbar-brand {
-    padding: 0;
-    margin: 0;
-    max-width: 30%;
-    background-size: auto;
-    background-position: center;
 
-  }
-
-  .band-name {
-    display: inline-block;
-    padding-left: 20px;
-    margin-top: 10px;
-    font-size: 23px;
-    opacity: 0.4;
-    filter: alpha(opacity=50);
-  }
+.navbar-toggler-icon {
+  color:  #f00;
+}
 
   a {
     font-size: 24px;
-  }
-
-  /* I've added  hover effect to name of the band on the navbar */
+    color: #f00!important;
+   
+    }
+  
+   /* I've added  hover effect to name of the band on the navbar */
 
   .band-name:hover {
     opacity: 1.0;
@@ -124,18 +123,18 @@
   /* ---------------------------------------------------Boys page */
 
   .card-img-top {
-    background-color: #ffc107;
+    background-color: #2f3d75;
     size: auto;
     margin-top: 0;
 
   }
 
   .card {
-    background-color: #ffc107;
+    background-color: #c8bfa5;
     border-color: transparent;
     text-transform: capitalize;
     font-size: 28px;
-    color: black;
+    color: #473708;
 
   }
 
@@ -150,6 +149,10 @@
   .card-body {
     text-align: center;
   }
+  
+  #boys {
+    background-color: #c8bfa5;
+  }
 
   /* ---------------------------------------------------Jumbotron */
 
@@ -158,7 +161,7 @@
   .jumbotron {
     text-transform: capitalize;
     font-size: 25px;
-    color: #212529;
+    color: #473708;
     background-color: #ffc107;
     font-family: Permanent Marker;
     text-align: center;
@@ -178,6 +181,7 @@
     width: 100%;
     display: block;
     padding: 0px;
+    margin: 0;
   }
 
   .videoFrame iframe {
@@ -206,7 +210,7 @@
   .audio-file {
     text-align: center;
     margin: 30px;
-    color: #1B1E76;
+    color: #473708;
     box-sizing: border-box;
     width: 100%;
 
@@ -242,6 +246,9 @@
   }
 
   .song-list {
+    margin: 2rem;
+    margin-bottom: 0;
+    padding: 0;
     text-align: center;
   }
 
@@ -277,7 +284,9 @@
   }
   
   .contactHeading {
-    margin: 3rem;
+    margin: 2rem;
+    margin-bottom: 2rem;
+    padding: 0;
   }
 
   /* ---------------------------------------------------Store  */
@@ -300,7 +309,10 @@
   }
   
   .storeHeading {
-    margin: 3rem;
+    margin: 2rem;
+    margin-bottom: 0;
+    padding: 0;
+  font-size: 40px;
   }
 
   /* Code here is copied from Code Institute material, when I was thought how to style social links,

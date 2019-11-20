@@ -11,7 +11,10 @@ Bands current website doesn’t do them a justice, landing page isn’t aestheti
 
 # UX
 ****************************************************************************************************************************************************************
-Main objective of this project is to create a website, that is easy to navigate with simple yet streamline page setup. Website that is responsive on different screen sizes. Basically no
+Main objective of this project is to create a website, that is easy to navigate with simple yet streamline page setup.
+I was aiming to create a fun,bright but functional representation of band's work.
+Scrolling through webpage should instantly give clear impression of whar it offers to visitor.
+Website that is responsive on different screen sizes.
 It’s important to have a user-friendly website, for new and existing fans of the band being able to download new songs, buy a tickets and merchandise, after all website is one of the foundational elements of marketing strategy. In this case website serves as a meet and greet, pathway to band’s social accounts and their shop and news.
 
 ### User Stories
@@ -22,7 +25,7 @@ It’s important to have a user-friendly website, for new and existing fans of t
 +	As an event organiser, I want to be able to reach out to bands representatives to book them for a private gig.
 +	As a fan of the 5SOS, I want to listen to band’s music and be able to buy songs, albums right there and then.
 +	As a new visitor to the website, I want to be able look up info about the band on my mobile, while not at my desktop.
-+	AS a new visitor to the website, I want to find out more about this band.
++ AS a new visitor to the website, I want to find out more about this band.
 
 ### Wireframes
 ---------------------------------------------------------------------------------------------------------------------------------------
@@ -30,8 +33,8 @@ To establish the basic structure of a page before visual design and content is a
 
 Here are the links: 
 
-* Mobile view  https://wireframe.cc/pro/pp/e44ecfde7280627
-* Desktop view https://wireframe.cc/pro/pp/29d6b4c9e265965
+* [Mobile view](https://wireframe.cc/pro/pp/e44ecfde7280627)
+* [Desktop view](https://wireframe.cc/pro/pp/29d6b4c9e265965)
 
 # Features
 
@@ -46,6 +49,11 @@ I felt like my new website needed 6 pages to be transparent and easy to use. All
 * Contact page- I've used Bootstrap Form to create a form that anyone can fill in and send it to band.
 Although it's possible to fill the form in, it wouldn't send any information entered to the band, because it's not wired up,it's not functional.
 
+**Un update**
+
+After going through reviews and suggestions I've redesigned my layout and now my website is single page scrollable page.
+
+
 # Future features
 ***************************************************************************************************************************************
 Although, there are 5SOS social links featured of the bottom of every page, to make things more interesting this website would benefit from:
@@ -56,39 +64,32 @@ Although, there are 5SOS social links featured of the bottom of every page, to m
 
 # Technologies Used
 ***************************************************************************************************************************************
- #### In this project I've used:
-
+ 
 * HTML
 * CSS
 * [Bootstrap](https://getbootstrap.com/) I've used various components to help me add style and structure to website, e.g. carousel,cards,button, jumbotron,navbar.
-* [AWS Educate](https://www.awseducate.com/student/s/) this is the editor I've used to code,provided by Code Institute.
-* [W3C Validator](https://validator.w3.org/#validate_by_input)
 * [Hover.css](https://ianlunn.github.io/Hover/)
-* [Wireframe.cc](https://wireframe.cc/pro/login.php) I used this tool to create a visual representation of a user interface,before any styling and design is added. 
 * [Font Awesome](https://fontawesome.com/) Icons from this website compliments the social links for the boyband.
-* [W3Schools](https://www.w3schools.com/default.asp) This website helped me understand how to use certain code to achieve  
-* [GitHub](https://github.com/) Used to deploy my project
-* [YouTube](https://www.youtube.com/) Video files are embeded from YouTube.
 * [GoogleFonts](https://fonts.google.com/) I imported the font style (Permanent Marker) from this extensive font catalog.
-* [W3Newbie](https://w3newbie.com/courses/) Help to understand how to implement certain components, with online tutorial.
-* [Stack Overflow](https://stackoverflow.com/) Using forums to find out how to make all the photos the same size.
-* [Slack](https://slack.com/intl/en-gb/) Reading chats on requiroments and mistakes,asking for advise.
-* [htmlcolorcodes](https://htmlcolorcodes.com/color-picker/) I used this website to find right colors for my project-background color, font color etc. 
-
-
-
+* 
 
 # Testing
 ***************************************************************************************************************************************
-I've opened my website link(from HitHub pages) on other laptop to check the look and responsivness and it looked better then on  my own laptop. I've worked with Google Chrome as my default browser.
-And I appreaciate the *DevTools* it provided. One of the best features for me is the option of viewing the appearence of the website on diffrent screensizes,
+
++ I've opened my website link(from HitHub pages) on other laptop to check the look and responsivness and it looked better then on  my own laptop. 
+
++ I've worked with Google Chrome as my default browser.
+
++ And I appreaciate the **DevTools** it provided-one of the best features for me is the option of viewing the appearence of the website on diffrent screensizes,
 which saves the time to copy the link and open it on different gadgets-mobile, tablet, or desktop every time I make some changes.
-I opened the link in Chrome and Edge browsers and it worked fine and looked as intended in Chrome, but carousel photos didn't line up nicely in Edge.
-Audio files are not playing in Opera browser, and what I gathered from Opera forum that Opera only play (HTML5) .ogg files, not mp3. 
+
++ Carousel photos didn't line up nicely in Edge To fix this problem I resized the photos,but I am aware that there is another way how to fix the poor alignment with stylesheet.
+ 
++ Audio files are not playing in Opera browser, and what I gathered from Opera forum that Opera only play (HTML5) .ogg files, not mp3. 
 I could convert .mp3 files to .ogg files, but at this stage I wouldn't know how to make this work, when different browsers use different types of audio.
-To fix this problem I resized the photos,but I am aware that there is another way how to fix the poor alignment with stylesheet.
+
 I also tested the look and functionality in Firefox browser and everything appears to work there.
-Mainly I used Git locally for every day checks and tweaks.
++ Mainly I used Git locally for every day checks and tweaks.
 
 When I sent GitHup pages link via e-mail to my son and he opened it on his tablet, we realized that some of my social media links werent opening properly on some of the pages.
 I fixed that, but there is a lesson to learn for future projects-not to create every page separetly,but copy and paste when main page is done (if possible)
@@ -114,6 +115,7 @@ So the form is there and can be filled in, but it's not functional.This is somet
 
  Dropdown menu wouldn't display in mobile  view, which is important, because if website visitor want to navigate through the band's website on their mobile phone,
  then only page they could see would be the Home page. I added the Sticky Top to nav element, which partially helped. 
+ (Later update- removed sticky top and replaced it with fixed-top)
  The menu now displays but it stays on the top of the other content. I haven't resolved that yet.
  
  Some of the Font Awesome icons wouldn't display at all, so I refained from using them. 
@@ -123,33 +125,67 @@ Audio files doesn't work at all in Opera browser, I'm guesssing the audio player
 # Deployment
 ************************************************************************************************************************************
 
-I created this website using *AWS Cloud9* editor, which is similar to previous version, but for me it's less atractive since it has time out function.
-I've paid harsh price by not saving my progress every few minutes. It's all part of learning curve.
+I created this website using **AWS Educate Cloud9**
+To deploy this website I used **GitHub** which offers free web hosting and it's easy to set up.
+After my code was pushed to *GitHub* repository it was ready to be deployed.
+To deploy my website I did fallowing:
++ Login to my GitHub accounts
++ Choose sun5lower/Milestone-1-5SOS repository
++ Go to **Settings**
++ There choose **GitHub Pages**
++ Select **Master** branch 
++ Deployed website link is displayed in **GitHub Pages** section
+
  
-When I started Milestone 1 project, I initialized the local repository by typing * git init* in new terminal.
-After some code has been created I typed * git add . * and *git commit -m ""* to add files and commit them to local repository.
-When it felt like my project has progressed substantially I created new repository in *GitHub* and by using these:
-*git remote add origin remote repository URL*
-*git push -u origin master* I linked it to local repository.
-  Once the local repository is pushed to GitHub, link of the website can be found in  *Settings* of the project's repo
+To run this code locally press this link 
++ This will navigate to the main page of the repository.
++ Press **Clone or download**
++ Repository can be cloned using HTTPS or SSH key,so choose one of them and press copy
++ Open **Git Bash**
++ Choose the desired directory
++ Type ```git clone``` and then paste the URL you copied earlier
 
 
+ ```$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY```
 
 
 
 #Credits
 ***************************************************************************************************************************************
-To be added just before Im ready to submit the project
+#### In this project I've used:
+
+
+* [AWS Educate](https://www.awseducate.com/student/s/) this is the editor I've used to code,provided by Code Institute.
+* [W3C Validator](https://validator.w3.org/#validate_by_input)
+* [Wireframe.cc](https://wireframe.cc/pro/login.php) I used this tool to create a visual representation of a user interface,before any styling and design is added. 
+* [W3Schools](https://www.w3schools.com/default.asp) This website helped me understand how to use certain code to achieve  
+* [GitHub](https://github.com/) Used to deploy my project
+* [YouTube](https://www.youtube.com/) Video files are embeded from YouTube.
+* [W3Newbie](https://w3newbie.com/courses/) Help to understand how to implement certain components, with online tutorial.
+* [Stack Overflow](https://stackoverflow.com/) Using forums to find out how to make all the photos the same size.
+* [Slack](https://slack.com/intl/en-gb/) Reading chats on requiroments and mistakes,asking for advise.
+* [htmlcolorcodes](https://htmlcolorcodes.com/color-picker/) I used this website to find right colors for my project-background color, font color etc. 
+
 
 ### Media
 
 The photos used in this site were obtained from:
 
-* modestmanagement.com
-* fr.fanpop.com
-* Pressfrom.com by Chris Pizzello 
-* 5SOS.com official website - poster for store page and band logo.
-* 5sos.fandom.com Michael profile picture
+* [Modest Management](modestmanagement.com)
+* [Fanpop](fr.fanpop.com)
+* [Pressfrom](Pressfrom.com) by Chris Pizzello 
+* [5SOS official website](5SOS.com) - poster for store page and band logo.
+* [5sos.fandom](5sos.fandom.com) Michael's profile picture
 * me.me Ashton's profile picyure
 
+### Acknowledgements
 
+ Huge thank you to :
+   + Narender Singh, my mentor for guiding me, and making me understand the principles of good project.
+   + Everyone at Peer-code-review (Slack) for taking their time to comment on my project
+
+
+## Disclaimer 
+
+My project is for educational purposes only
+ 
