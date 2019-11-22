@@ -13,7 +13,7 @@ Bands current website doesn’t do them a justice, landing page isn’t aestheti
 ****************************************************************************************************************************************************************
 Main objective of this project is to create a website, that is easy to navigate with simple yet streamline page setup.
 I was aiming to create a fun,bright but functional representation of band's work.
-Scrolling through webpage should instantly give clear impression of whar it offers to visitor.
+Scrolling through webpage should instantly give clear impression of what it offers to visitor.
 Website that is responsive on different screen sizes.
 It’s important to have a user-friendly website, for new and existing fans of the band being able to download new songs, buy a tickets and merchandise, after all website is one of the foundational elements of marketing strategy. In this case website serves as a meet and greet, pathway to band’s social accounts and their shop and news.
 
@@ -150,7 +150,7 @@ To run this code locally press this link
 
 
 
-#Credits
+# Credits
 ***************************************************************************************************************************************
 #### In this project I've used:
 

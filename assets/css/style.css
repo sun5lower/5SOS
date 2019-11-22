@@ -22,17 +22,20 @@
    
   }
 
+/* -----------------------------------------------Main section styling */
 
+#boys {
+  padding-top: 25px;
+}
 
-  .welcomeheading {
-    color: #000000;
-    text-transform: uppercase;
-    font-family: Permanent Marker;
-    text-align: center;
-    font-size: 30px;
-    margin-bottom: 2rem;
+#store {
+  padding-top: 20px;
+}
 
-  }
+#contact {
+  padding-top: 25px;
+}
+
 
 /* I set padding and margin for container-fluid class to 0; to remove overflow */
 
@@ -66,8 +69,10 @@
   opacity: 0.9;
   position: fixed;
   padding: 0;
+   height: 50px;
+    }
  
-}
+
 .nav {
   padding: 0;
   margin: 0;
@@ -154,6 +159,16 @@
     background-color: #c8bfa5;
   }
 
+.welcomeheading {
+    color: #000000;
+    text-transform: uppercase;
+    font-family: Permanent Marker;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 2rem;
+
+  }
+
   /* ---------------------------------------------------Jumbotron */
 
   /* I've added some custom styling to this jumbotron, although I used it to attract extra attention,I felt it needet to be sabtle  */
@@ -210,7 +225,7 @@
   .audio-file {
     text-align: center;
     margin: 30px;
-    color: #473708;
+    color: #6d5e35;
     box-sizing: border-box;
     width: 100%;
 
@@ -221,7 +236,8 @@
   .audio {
     filter: sepia(20%) saturate(70%) grayscale(1) contrast(99%) invert(12%);
     display: inline-block;
-    margin-bottom: 25px;
+    margin-bottom: 55px;
+    padding: 20px;
 
   }
 
@@ -251,7 +267,14 @@
     padding: 0;
     text-align: center;
   }
-
+ 
+ /* I added box-shadow effect to song-artwork,which is image to stand out and not to look so flat */
+ 
+.song-artwork {
+box-shadow: 10px 10px 5px grey;
+  padding: 40px;
+  margin-bottom: 20px;
+}
 
   /* ---------------------------------------------------Form/Contact */
 
@@ -386,3 +409,5 @@ since then I've noticed it is quite populas way of presenting social links on we
     margin-top: 50px;
   }
   
+  
+   
