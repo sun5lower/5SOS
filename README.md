@@ -1,4 +1,4 @@
-# Milestone Project 1
+# Milestone Project 1 - 5 SECONDS OF SUMMER
 ***************************************************************************************************************************************
 
 Weclome to my first project! 
@@ -15,7 +15,10 @@ Main objective of this project is to create a website, that is easy to navigate 
 I was aiming to create a fun,bright but functional representation of band's work.
 Scrolling through webpage should instantly give clear impression of what it offers to visitor.
 Website that is responsive on different screen sizes.
-It’s important to have a user-friendly website, for new and existing fans of the band being able to download new songs, buy a tickets and merchandise, after all website is one of the foundational elements of marketing strategy. In this case website serves as a meet and greet, pathway to band’s social accounts and their shop and news.
+It’s important to have a user-friendly website, for new and existing fans of the band being able to download new songs, buy a tickets and merchandise,
+after all website is one of the foundational elements of marketing strategy.
+In this case website serves as a meet and greet, pathway to band’s social accounts and their shop and news.
+
 
 ### User Stories
 ---------------------------------------------------------------------------------------------------------------------------------------
@@ -31,10 +34,16 @@ It’s important to have a user-friendly website, for new and existing fans of t
 ---------------------------------------------------------------------------------------------------------------------------------------
 To establish the basic structure of a page before visual design and content is added, I used Wireframe.cc.
 
-Here are the links: 
+Here are the links to the original design,made using the [wireframe.cc](https://wireframe.cc/pro/login.php)
 
 * [Mobile view](https://wireframe.cc/pro/pp/e44ecfde7280627)
 * [Desktop view](https://wireframe.cc/pro/pp/29d6b4c9e265965)
+ 
+These are the wireframes after changing the layout to one page scrollable website
+ They are hand drawn.
+
+![Desktop](Desktopv.png)
+![Mobile](mobilev.jpg)
 
 # Features
 
@@ -51,7 +60,11 @@ Although it's possible to fill the form in, it wouldn't send any information ent
 
 **Un update**
 
-After going through reviews and suggestions I've redesigned my layout and now my website is single page scrollable page.
+After going through reviews and suggestions I've redesigned my layout and now my website is single page scrollable website.
+I added some changes to suit this kind of layout.
+
++ Some content is hiddden when watching in mobile view, for example <jumbotron> in Home section, and song artwork (image).
++ I added box-shadow class to audio section images to make them stand out a bit and not being so flat.
 
 
 # Future features
