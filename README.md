@@ -1,9 +1,9 @@
 # Milestone Project 1 - 5 SECONDS OF SUMMER
 ***************************************************************************************************************************************
 
-Weclome to my first project! 
+# Summary
 ---------------------------------------------------------------------------------------------------------------------------------------
-I am required to build a static front-end website to showcase what I've learned so far.
+I wanted to build a static front-end website to showcase what I've learned so far.
 I am using HTML and CSS to build this website and Bootstrap 4 which is the most popular HTML, CSS, and JavaScript framework for developing responsive, mobile-first websites.
  For this project I've chosen to make an alternative website or fansite for Australian pop/rock band 5 Seconds Of Summer. My aim is to keep layout simple, navigation easy to fallow, use clear calls to action, and use catching colours. 
 Bands current website doesn’t do them a justice, landing page isn’t aesthetically pleasing and doesn’t encourage to look further, unless you are already an established fan.
@@ -12,7 +12,7 @@ Bands current website doesn’t do them a justice, landing page isn’t aestheti
 # UX
 ****************************************************************************************************************************************************************
 Main objective of this project is to create a website, that is easy to navigate with simple yet streamline page setup.
-I was aiming to create a fun,bright but functional representation of band's work.
+The aim was aiming to create a fun,bright but functional representation of band's work.
 Scrolling through webpage should instantly give clear impression of what it offers to visitor.
 Website that is responsive on different screen sizes.
 It’s important to have a user-friendly website, for new and existing fans of the band being able to download new songs, buy a tickets and merchandise,
