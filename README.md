@@ -115,6 +115,7 @@ I could convert .mp3 files to .ogg files, but at this stage I wouldn't know how 
 + Dropdown menu wouldn't display in mobile  view, which is important, because if website visitor want to navigate through the band's website on their mobile phone,
  then only page they could see would be the Home page. I added the Sticky Top to nav element, which partially helped. 
  (Later update- removed sticky top and replaced it with fixed-top)
+ + I couldn't resolve the issue with Carousel captions- I hoped to hide them in mobile view. They still are visible and display too high and are not possible to read.
 
 #### Going through user stories
 
