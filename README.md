@@ -19,6 +19,8 @@ Website that is responsive on different screen sizes.
 It’s important to have a user-friendly website, for new and existing fans of the band being able to download new songs, buy a tickets and merchandise,
 after all website is one of the foundational elements of marketing strategy.
 In this case website serves as a meet and greet, pathway to band’s social accounts and their shop and news.
+Design might come across very minimalistic only to focus on what really matters-the art of music.
+This website showcases the band's work- let the music speak!
 
 
 ### User Stories
@@ -71,7 +73,7 @@ I added some changes to suit this kind of layout.
 
 # Future features
 ***************************************************************************************************************************************
-Although, there are 5SOS social links featured of the bottom of every page, to make things more interesting this website would benefit from:
+Although, there are 5SOS social links featured of the bottom of page, to make things more interesting this website would benefit from:
 * Personal social accounts of each band member (probably in "BOYS" page) ,next to their photo.
 * More photos added to the "HOME" page carousel.
 * Find the audio player setting that stops previous song ,when the other one is selected.
@@ -101,7 +103,7 @@ which saves the time to copy the link and open it on different gadgets-mobile, t
 + Carousel photos didn't line up nicely in Edge To fix this problem I resized the photos,but I am aware that there is another way how to fix the poor alignment with stylesheet.
 + I also tested the look and functionality in Firefox browser and everything appears to work there.
 + Mainly I used Git locally for every day checks and tweaks.
-+ I ran my documents through *W3C Validator* for automatic syntax check, to see if there is no unnecessary code and discrepancies.
++ I ran my documents through **W3C Validator** for automatic syntax check, to see if there is no unnecessary code and discrepancies.
 
 When I sent GitHup pages link via e-mail to my son and he opened it on his tablet, we realized that some of my social media links werent opening properly on some of the pages.
 I fixed that, but there is a lesson to learn for future projects-not to create every page separetly,but copy and paste when main page is done (if possible)
@@ -112,10 +114,8 @@ I fixed that, but there is a lesson to learn for future projects-not to create e
 
  + Audio files are not playing in Opera browser, and what I gathered from Opera forum that Opera only play (HTML5) .ogg files, not mp3. 
 I could convert .mp3 files to .ogg files, but at this stage I wouldn't know how to make this work, when different browsers use different types of audio.
-+ Dropdown menu wouldn't display in mobile  view, which is important, because if website visitor want to navigate through the band's website on their mobile phone,
- then only page they could see would be the Home page. I added the Sticky Top to nav element, which partially helped. 
- (Later update- removed sticky top and replaced it with fixed-top)
- + I couldn't resolve the issue with Carousel captions- I hoped to hide them in mobile view. They still are visible and display too high and are not possible to read.
+
+
 
 #### Going through user stories
 
@@ -128,8 +128,7 @@ So the form is there and can be filled in, but it's not functional.This is somet
 * By pressing the social link icons visitor can see and fallow the band on Facebook, Instagram, Twitter and YouTube.
 * I didn't add more social platforms to avoid crammed and overwhelming feeling.
 * Website visitor can listen to audio files and watch YouTube embeded videos of the 5SOS. Youtube doesn't open in different browser tab,
- which is usefull to keep a visitor "occupied" in this website, rather than get lost in the world of YouTube. Other positive of usin YouTube is that 
- visitor can find more 5SOS  videos without leaving the website.
+ which is usefull to keep a visitor "occupied" in this website, rather than get lost in the world of YouTube. Other positive of using YouTube is that visitor can find more 5SOS  videos without leaving the website.
 
 ### Bugs 
 
