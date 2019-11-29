@@ -5,14 +5,15 @@
 ---------------------------------------------------------------------------------------------------------------------------------------
 I wanted to build a static front-end website to showcase what I've learned so far.
 I am using HTML and CSS to build this website and Bootstrap 4 which is the most popular HTML, CSS, and JavaScript framework for developing responsive, mobile-first websites.
- For this project I've chosen to make an alternative website or fansite for Australian pop/rock band 5 Seconds Of Summer. My aim is to keep layout simple, navigation easy to fallow, use clear calls to action, and use catching colours. 
+ For this project I've chosen to make an alternative website or fansite for Australian pop/rock band 5 Seconds Of Summer.
+ My aim is to keep layout simple, navigation easy to fallow, use clear calls to action, and use catching colours. 
 Bands current website doesn’t do them a justice, landing page isn’t aesthetically pleasing and doesn’t encourage to look further, unless you are already an established fan.
 
 
 # UX
 ****************************************************************************************************************************************************************
 Main objective of this project is to create a website, that is easy to navigate with simple yet streamline page setup.
-The aim was aiming to create a fun,bright but functional representation of band's work.
+The aim was to create a fun,bright but functional representation of band's work.
 Scrolling through webpage should instantly give clear impression of what it offers to visitor.
 Website that is responsive on different screen sizes.
 It’s important to have a user-friendly website, for new and existing fans of the band being able to download new songs, buy a tickets and merchandise,
@@ -42,8 +43,8 @@ Here are the links to the original design,made using the [wireframe.cc](https://
 These are the wireframes after changing the layout to one page scrollable website
  They are hand drawn.
 
-![Desktop](assets/images/Desktopv.png)
-![Mobile](assets/images/mobilev.jpg)
+ ![Desktop](assets/images/desktopwire.png)
+![Mobile](assets/images/mobilewire.jpg)
 
 # Features
 
@@ -58,13 +59,14 @@ I felt like my new website needed 6 pages to be transparent and easy to use. All
 * Contact page- I've used Bootstrap Form to create a form that anyone can fill in and send it to band.
 Although it's possible to fill the form in, it wouldn't send any information entered to the band, because it's not wired up,it's not functional.
 
-**Un update**
+**An update**
 
 After going through reviews and suggestions I've redesigned my layout and now my website is single page scrollable website.
 I added some changes to suit this kind of layout.
 
-+ Some content is hiddden when watching in mobile view, for example <jumbotron> in Home section, and song artwork (image).
++ Some content is hiddden when watching in mobile view, for example song artwork (image).
 + I added box-shadow class to audio section images to make them stand out a bit and not being so flat.
++ Jumbotron has been remover and added  as "carousel-caption"
 
 
 # Future features
@@ -89,7 +91,7 @@ Although, there are 5SOS social links featured of the bottom of every page, to m
 # Testing
 ***************************************************************************************************************************************
 
-+ I've opened my website link(from HitHub pages) on other laptop to check the look and responsivness and it looked better then on  my own laptop. 
++ I've opened my website link(from GitHub pages) on other laptop to check the look and responsivness and it looked better then on  my own laptop. 
 
 + I've worked with Google Chrome as my default browser.
 
@@ -97,18 +99,22 @@ Although, there are 5SOS social links featured of the bottom of every page, to m
 which saves the time to copy the link and open it on different gadgets-mobile, tablet, or desktop every time I make some changes.
 
 + Carousel photos didn't line up nicely in Edge To fix this problem I resized the photos,but I am aware that there is another way how to fix the poor alignment with stylesheet.
- 
-+ Audio files are not playing in Opera browser, and what I gathered from Opera forum that Opera only play (HTML5) .ogg files, not mp3. 
-I could convert .mp3 files to .ogg files, but at this stage I wouldn't know how to make this work, when different browsers use different types of audio.
-
-I also tested the look and functionality in Firefox browser and everything appears to work there.
++ I also tested the look and functionality in Firefox browser and everything appears to work there.
 + Mainly I used Git locally for every day checks and tweaks.
++ I ran my documents through *W3C Validator* for automatic syntax check, to see if there is no unnecessary code and discrepancies.
 
 When I sent GitHup pages link via e-mail to my son and he opened it on his tablet, we realized that some of my social media links werent opening properly on some of the pages.
 I fixed that, but there is a lesson to learn for future projects-not to create every page separetly,but copy and paste when main page is done (if possible)
 
-I ran my documents through *W3C Validator* for automatic syntax check, to see if there is no unnecessary code and discrepancies.
 
+
+### Release notes
+
+ + Audio files are not playing in Opera browser, and what I gathered from Opera forum that Opera only play (HTML5) .ogg files, not mp3. 
+I could convert .mp3 files to .ogg files, but at this stage I wouldn't know how to make this work, when different browsers use different types of audio.
++ Dropdown menu wouldn't display in mobile  view, which is important, because if website visitor want to navigate through the band's website on their mobile phone,
+ then only page they could see would be the Home page. I added the Sticky Top to nav element, which partially helped. 
+ (Later update- removed sticky top and replaced it with fixed-top)
 
 #### Going through user stories
 
@@ -126,14 +132,8 @@ So the form is there and can be filled in, but it's not functional.This is somet
 
 ### Bugs 
 
- Dropdown menu wouldn't display in mobile  view, which is important, because if website visitor want to navigate through the band's website on their mobile phone,
- then only page they could see would be the Home page. I added the Sticky Top to nav element, which partially helped. 
- (Later update- removed sticky top and replaced it with fixed-top)
- The menu now displays but it stays on the top of the other content. I haven't resolved that yet.
- 
- Some of the Font Awesome icons wouldn't display at all, so I refained from using them. 
+Some of the Font Awesome icons wouldn't display at all, so I refained from using them. 
 
-Audio files doesn't work at all in Opera browser, I'm guesssing the audio player is not compatible with the browser.
 
 # Deployment
 ************************************************************************************************************************************

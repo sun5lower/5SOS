@@ -4,40 +4,42 @@
 
   .h1.display-2 {
     padding: 0;
-    color: #F6EF12;
+   
   }
 
 
   p {
     text-align: center;
+    font-size: 29px;
 
   }
 
 
 
- html,body {
-    background-color: #ffc107;
+  html,
+  body {
+    background-color: #F0E5F3;
     font-family: Permanent Marker;
     position: relative;
-   
+
   }
 
-/* -----------------------------------------------Main section styling */
+  /* -----------------------------------------------Main section styling */
 
-#boys {
-  padding-top: 25px;
-}
+  #boys {
+    padding-top: 25px;
+  }
 
-#store {
-  padding-top: 20px;
-}
+  #store {
+    padding-top: 20px;
+  }
 
-#contact {
-  padding-top: 25px;
-}
+  #contact {
+    padding-top: 25px;
+  }
 
 
-/* I set padding and margin for container-fluid class to 0; to remove overflow */
+  /* I set padding and margin for container-fluid class to 0; to remove overflow */
 
   .container-fluid {
     padding: 0;
@@ -57,39 +59,39 @@
   img.navbar-brand {
     padding: 0;
     margin: 0;
-  width: 30%;
-  height: 50%;
- }
+    width: 30%;
+    height: 50%;
+  }
 
   .bg-dark {
     background-color: #5c5a54;
   }
 
-.navbar {
-  opacity: 0.9;
-  position: fixed;
-  padding: 0;
-   height: 50px;
-    }
- 
-
-.nav {
-  padding: 0;
-  margin: 0;
-}
+  .navbar {
+    opacity: 0.9;
+    position: fixed;
+    padding: 0;
+    height: 50px;
+  }
 
 
-.navbar-toggler-icon {
-  color:  #f00;
-}
+  .nav {
+    padding: 0;
+    margin: 0;
+  }
+
+
+  .navbar-toggler-icon {
+    color: #f00;
+  }
 
   a {
     font-size: 24px;
     color: #f00!important;
-   
-    }
-  
-   /* I've added  hover effect to name of the band on the navbar */
+
+  }
+
+  /* I've added  hover effect to name of the band on the navbar */
 
   .band-name:hover {
     opacity: 1.0;
@@ -116,8 +118,8 @@
 
   .carousel-caption {
     text-alighn: center;
-    color: #FFc107;
-    font-weight: 700;
+    color: #f00;
+    font-weight: 900;
     padding-bottom: 100px;
     margin-bottom: 30px;
 
@@ -128,38 +130,44 @@
   /* ---------------------------------------------------Boys page */
 
   .card-img-top {
-    background-color: #2f3d75;
-    size: auto;
+    background-color: #F0E5F3;
+    height: 100%;
     margin-top: 0;
+   box-shadow: 10px 10px 5px black;
 
   }
 
   .card {
-    background-color: #c8bfa5;
+    background-color: #F0E5F3;
     border-color: transparent;
     text-transform: capitalize;
     font-size: 28px;
     color: #473708;
-
+    
+   
   }
+  
+ 
+  
+  
 
   h4.card.title {
     font: bold;
   }
 
-  p.card-text {
+  .card-text {
     font-size: 20px;
   }
 
   .card-body {
     text-align: center;
   }
-  
+
   #boys {
-    background-color: #c8bfa5;
+    background-color: #F0E5F3;
   }
 
-.welcomeheading {
+  .welcomeheading {
     color: #000000;
     text-transform: uppercase;
     font-family: Permanent Marker;
@@ -173,18 +181,7 @@
 
   /* I've added some custom styling to this jumbotron, although I used it to attract extra attention,I felt it needet to be sabtle  */
 
-  .jumbotron {
-    text-transform: capitalize;
-    font-size: 25px;
-    color: #473708;
-    background-color: #ffc107;
-    font-family: Permanent Marker;
-    text-align: center;
-    margin: 0;
-    position: relative;
-    width: 100%;
-  }
-
+  
 
 
 
@@ -244,8 +241,7 @@
 
   .container {
     border-radius: 5px;
-    background-color: #ffc107;
-
+    background-color: #F0E5F3;
     width: 100%;
   }
 
@@ -267,23 +263,36 @@
     padding: 0;
     text-align: center;
   }
- 
- /* I added box-shadow effect to song-artwork,which is image to stand out and not to look so flat */
- 
-.song-artwork {
-box-shadow: 10px 10px 5px grey;
-  padding: 40px;
-  margin-bottom: 20px;
-}
+
+  /* I added box-shadow effect to song-artwork,which is image to stand out and not to look so flat */
+
+  .song-artwork {
+    box-shadow: 10px 10px 5px grey;
+    padding: 40px;
+    margin-bottom: 20px;
+  }
 
   /* ---------------------------------------------------Form/Contact */
+  
+  .form {
+    padding-left: 40px;
+    padding-top: 3rem;
+    
+  }
+  
+.reachout {
+  padding-top: 9rem;
+  
+}
+  
+
 
   input[type=text],
   select,
   textarea {
     width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
+    padding:12px;
+    border: 1px solid #f00;
     border-radius: 4px;
     box-sizing: border-box;
     margin-top: 6px;
@@ -294,8 +303,8 @@ box-shadow: 10px 10px 5px grey;
   /* This is a styling for the "send" button, similar to social link,to keep the consistent look  */
 
   input[type=submit] {
-    background-color: #FBE70C;
-    color: #1B1E76;
+    background-color: #f00;
+    color:  rgba(0,0,0,0.8);
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
@@ -303,9 +312,9 @@ box-shadow: 10px 10px 5px grey;
   }
 
   input[type=submit]:hover {
-    background-color: #C0C0C0;
+    background-color:   #C0C0C0 ;
   }
-  
+
   .contactHeading {
     margin: 2rem;
     margin-bottom: 2rem;
@@ -316,7 +325,7 @@ box-shadow: 10px 10px 5px grey;
 
   .btn {
     color: #9B59B6;
-    background-color: #a9cc29;
+    background-color: #f00;
     border: hidden;
 
 
@@ -330,12 +339,12 @@ box-shadow: 10px 10px 5px grey;
   .btn-primary {
     color: #090b7a;
   }
-  
+
   .storeHeading {
     margin: 2rem;
     margin-bottom: 0;
     padding: 0;
-  font-size: 40px;
+    font-size: 40px;
   }
 
   /* Code here is copied from Code Institute material, when I was thought how to style social links,
@@ -354,6 +363,12 @@ since then I've noticed it is quite populas way of presenting social links on we
 
   .shopping i:hover {
     color: #C0C0C0;
+  }
+
+  .btn-primary {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.75);
+    border-color: #fffd00;
   }
 
   /* Hero image from Bootstrap code was fun way of adding some simple yet funtional code. I've copied the code from w3schools.com */
@@ -390,8 +405,8 @@ since then I've noticed it is quite populas way of presenting social links on we
     font-size: 34px;
     line-height: 4px;
     text-align: center;
-    color: #1B1E76;
-    background: #F8E912;
+    color: rgba(0,0,0,0.8);
+    background: #f00;
     transition: 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -403,11 +418,12 @@ since then I've noticed it is quite populas way of presenting social links on we
 
   }
 
+
   .social {
     padding-bottom: 40px;
     padding-top: 45px;
     margin-top: 50px;
   }
-  
-  
-   
+
+ 
+ 
