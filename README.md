@@ -115,6 +115,7 @@ I could convert .mp3 files to .ogg files, but at this stage I wouldn't know how 
 + Dropdown menu wouldn't display in mobile  view, which is important, because if website visitor want to navigate through the band's website on their mobile phone,
  then only page they could see would be the Home page. I added the Sticky Top to nav element, which partially helped. 
  (Later update- removed sticky top and replaced it with fixed-top)
+ + I couldn't resolve the issue with Carousel captions- I hoped to hide them in mobile view. They still are visible and display too high and are not possible to read.
 
 #### Going through user stories
 
@@ -148,7 +149,8 @@ To deploy my website I did fallowing:
 + There choose **GitHub Pages**
 + Select **Master** branch 
 + Deployed website link is displayed in **GitHub Pages** section
-
+ 
+ [Click here to see website](https://sun5lower.github.io/Milestone-1-5SOS/)
  
 To run this code locally press this link 
 + This will navigate to the main page of the repository.
@@ -161,7 +163,7 @@ To run this code locally press this link
 
  ```$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY```
 
-
+[Click here to see my repository](https://github.com/sun5lower/Milestone-1-5SOS)
 
 # Credits
 ***************************************************************************************************************************************
