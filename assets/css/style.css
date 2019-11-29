@@ -4,24 +4,20 @@
 
   .h1.display-2 {
     padding: 0;
-   
+
   }
 
 
   p {
     text-align: center;
     font-size: 29px;
-
   }
-
-
 
   html,
   body {
     background-color: #F0E5F3;
     font-family: Permanent Marker;
     position: relative;
-
   }
 
   /* -----------------------------------------------Main section styling */
@@ -91,7 +87,7 @@
 
   }
 
- 
+
 
   /* ---------------------------------------------------Carousel */
 
@@ -128,7 +124,7 @@
     background-color: #F0E5F3;
     height: 100%;
     margin-top: 0;
-   box-shadow: 10px 10px 5px black;
+    box-shadow: 10px 10px 5px black;
 
   }
 
@@ -138,13 +134,7 @@
     text-transform: capitalize;
     font-size: 28px;
     color: #473708;
-    
-   
   }
-  
- 
-  
-  
 
   h4.card.title {
     font: bold;
@@ -172,7 +162,7 @@
 
   }
 
- 
+
   /* ---------------------------------------------------Video */
 
   /* I've copied this code from w3schools.com  */
@@ -261,25 +251,23 @@
   }
 
   /* ---------------------------------------------------Form/Contact */
-  
+
   .form {
     padding-left: 40px;
     padding-top: 3rem;
-    
-  }
-  
-.reachout {
-  padding-top: 9rem;
-  
-}
-  
 
+  }
+
+  .reachout {
+    padding-top: 9rem;
+
+  }
 
   input[type=text],
   select,
   textarea {
     width: 100%;
-    padding:12px;
+    padding: 12px;
     border: 1px solid #f00;
     border-radius: 4px;
     box-sizing: border-box;
@@ -292,7 +280,7 @@
 
   input[type=submit] {
     background-color: #f00;
-    color:  rgba(0,0,0,0.8);
+    color: rgba(0, 0, 0, 0.8);
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
@@ -300,7 +288,7 @@
   }
 
   input[type=submit]:hover {
-    background-color:   #C0C0C0 ;
+    background-color: #C0C0C0;
   }
 
   .contactHeading {
@@ -393,7 +381,7 @@ since then I've noticed it is quite populas way of presenting social links on we
     font-size: 34px;
     line-height: 4px;
     text-align: center;
-    color: rgba(0,0,0,0.8);
+    color: rgba(0, 0, 0, 0.8);
     background: #f00;
     transition: 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
@@ -412,6 +400,4 @@ since then I've noticed it is quite populas way of presenting social links on we
     padding-top: 45px;
     margin-top: 50px;
   }
-
- 
- 
+  
