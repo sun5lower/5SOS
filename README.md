@@ -148,7 +148,8 @@ To deploy my website I did fallowing:
 + There choose **GitHub Pages**
 + Select **Master** branch 
 + Deployed website link is displayed in **GitHub Pages** section
-
+ 
+ [click here to see website](https://sun5lower.github.io/Milestone-1-5SOS/)
  
 To run this code locally press this link 
 + This will navigate to the main page of the repository.
