@@ -19,13 +19,10 @@ Website that is responsive on different screen sizes.
 It’s important to have a user-friendly website, for new and existing fans of the band being able to download new songs, buy a tickets and merchandise,
 after all website is one of the foundational elements of marketing strategy.
 In this case website serves as a meet and greet, pathway to band’s social accounts and their shop and news.
-<<<<<<< HEAD
- Design might come across very minimalistic only to focus on what really matters-the art of music. This website showcases the band's work- let the music speak!
-=======
+
 Design might come across very minimalistic only to focus on what really matters-the art of music.
 This website showcases the band's work- let the music speak!
 
->>>>>>> e48ff3820c9d28b53c4a0f4221428b1e050e1e07
 
 ### User Stories
 ---------------------------------------------------------------------------------------------------------------------------------------
