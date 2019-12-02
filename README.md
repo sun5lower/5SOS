@@ -45,13 +45,9 @@ Here are the links to the original design,made using the [wireframe.cc](https://
 These are the wireframes after changing the layout to one page scrollable website
  They are hand drawn.
 
-<<<<<<< HEAD
  Desktop   ![Desktop](assets/images/desktopwire.png)
- Mobile    ![Mobile](assets/images/mobilewire1.jpg)
-=======
- ![Desktop](assets/images/desktopwire.png)
-![Mobile](assets/images/mobilewire1.jpg)
->>>>>>> c21a5c8d8460693dcb58e63d46dfc00895764e76
+ Mobile    ![Mobile](assets/images/mobilewire2.jpg)
+
 
 # Features
 
