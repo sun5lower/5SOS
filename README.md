@@ -45,7 +45,7 @@ Here are the links to the original design,made using the [wireframe.cc](https://
 These are the wireframes after changing the layout to one page scrollable website
  They are hand drawn.
 
- ![Desktop](assets/images/desktopwire.png)
+ ![Desktop](assets/images/desktopwire1.png)
 ![Mobile](assets/images/mobilewire.jpg)
 
 # Features
@@ -140,7 +140,7 @@ So the form is there and can be filled in, but it's not functional.This is somet
 
 ### Bugs 
 
-Some of the Font Awesome icons wouldn't display at all, so I refained from using them. 
+Some of the Font Awesome icons wouldn't display at all, so I refrained from using them. 
 
 
 # Deployment
