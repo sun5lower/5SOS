@@ -45,8 +45,8 @@ Here are the links to the original design,made using the [wireframe.cc](https://
 These are the wireframes after changing the layout to one page scrollable website
  They are hand drawn.
 
- ![Desktop](assets/images/desktopwire.png)
-![Mobile](assets/images/mobilewire.jpg)
+ Desktop   ![Desktop](assets/images/desktopwire.png)
+ Mobile    ![Mobile](assets/images/mobilewire1.jpg)
 
 # Features
 
@@ -140,7 +140,7 @@ So the form is there and can be filled in, but it's not functional.This is somet
 
 ### Bugs 
 
-Some of the Font Awesome icons wouldn't display at all, so I refained from using them. 
+Some of the Font Awesome icons wouldn't display at all, so I refrained from using them. 
 
 
 # Deployment
@@ -197,7 +197,7 @@ The photos used in this site were obtained from:
 * [Fanpop](fr.fanpop.com)
 * [Pressfrom](Pressfrom.com) by Chris Pizzello 
 * [5SOS official website](5SOS.com) - poster for store page and band logo.
-* [5sos.fandom](5sos.fandom.com) Michael's profile picture
+* [5sos.fandom](5sos.fandom.com) 
 * me.me Ashton's profile picyure
 
 ### Acknowledgements
