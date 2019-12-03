@@ -106,14 +106,7 @@ which saves the time to copy the link and open it on different gadgets-mobile, t
 + Mainly I used Git locally for every day checks and tweaks.
 + I ran my documents through **W3C Validator** for automatic syntax check, to see if there is no unnecessary code and discrepancies.
 
-
-+ Carousel photos didn't line up nicely in Edge To fix this problem I resized the photos,but I am aware that there is another way how to fix the poor alignment with stylesheet.
-+ I also tested the look and functionality in Firefox browser and everything appears to work there.
-+ Mainly I used Git locally for every day checks and tweaks.
-+ I ran my documents through **W3C Validator** for automatic syntax check, to see if there is no unnecessary code and discrepancies.
-
-
-When I sent GitHup pages link via e-mail to my son and he opened it on his tablet, we realized that some of my social media links werent opening properly on some of the pages.
++ When I sent GitHup pages link via e-mail to my son and he opened it on his tablet, we realized that some of my social media links werent opening properly on some of the pages.
 I fixed that, but it helped to have fresh set of eyes to notice that.
 
 
@@ -133,6 +126,7 @@ I could convert .mp3 files to .ogg files, but at this stage I wouldn't know how 
 
 * If website visitor wishes to fill in the form to send a message or inquire about something, then it can be done, unfortunalely I havn't learned that in my course yet.
 So the form is there and can be filled in, but it's not functional.This is something that can be improved in the future.
+Fortunately there is an e-mail provided,so band can be contacted that way.
 
 * By pressing the social link icons visitor can see and fallow the band on Facebook, Instagram, Twitter and YouTube.
 * I didn't add more social platforms to avoid crammed and overwhelming feeling.
